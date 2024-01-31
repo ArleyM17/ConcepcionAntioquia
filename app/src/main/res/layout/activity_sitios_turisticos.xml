@@ -4,6 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/antiquewhite"
     tools:context=".Sitios_Turisticos">
+
+    <ImageView
+        android:id="@+id/bannersitios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/sitiocascada"
+        android:adjustViewBounds="true"
+        />
+    <TextView
+        android:id="@+id/titulohomesitios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bannersitios"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/titulohomesitios"
+        android:textAlignment="center"
+        android:textSize="33dp"
+        android:textColor="@color/indianred"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.05"
+        />
+
+    <TextView
+        android:id="@+id/Descripcionsitios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/titulohomesitios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/descripcionhomesitios"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintVertical_bias="0.1"
+        />
+    <ImageView
+        android:id="@+id/manositios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cascadamano"
+        app:layout_constraintTop_toBottomOf="@id/Descripcionsitios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.2"
+        />
+    <Button
+        android:id="@+id/botonhomesitios"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Descripcionsitios"
+        app:layout_constraintStart_toEndOf="@id/manositios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.3"
+        android:backgroundTint="@color/burlywood"
+        android:text="@string/botonhomesitios"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,6 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/antiquewhite"
     tools:context=".Restaurantes">
+
+    <ImageView
+        android:id="@+id/bannerrestaurantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/restaurante"
+        android:adjustViewBounds="true"
+        />
+    <TextView
+        android:id="@+id/titulohomerestaurante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bannerrestaurantes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/titulohomerestaurantes"
+        android:textAlignment="center"
+        android:textSize="33dp"
+        android:textColor="@color/indianred"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.05"
+        />
+
+    <TextView
+        android:id="@+id/Descripcionrestaurantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/titulohomerestaurante"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/descripcionhomeresturates"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintVertical_bias="0.1"
+        />
+    <ImageView
+        android:id="@+id/manorestaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/empanada"
+        app:layout_constraintTop_toBottomOf="@id/Descripcionrestaurantes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.2"
+        />
+
+    <Button
+        android:id="@+id/botonhomerestaurantes"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Descripcionrestaurantes"
+        app:layout_constraintStart_toEndOf="@id/manorestaurantes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.3"
+        android:backgroundTint="@color/burlywood"
+        android:text="@string/botonhomerestaurantes"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

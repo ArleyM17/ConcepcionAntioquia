@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">SanRafa</string>
+    <string name="titulohomehoteles">Hoteles en Concepción</string>
+    <string name="descripcionhomehoteles">En nuestro pueblo encontraras alojamientos desde 35000 COP
+        hasta lujosas cabañas dotadas de una buena comodidad para promover su estadia y descanso, te recomendamos el hotel
+        de Doña Pascuala.
+           Visitanos</string>
+    <string name="botonhomehoteles">Ver hoteles</string>
+    <string name="titulohomerestaurantes">Restaurantes en Concepción</string>
+    <string name="descripcionhomeresturates">En nuestro pueblo encontraras desayunos y almuerzos deliciosos,
+        disfruta de la gastronomia tipica de nuestro pueblo y de nuestro gran amor por el cafe y las empanadas de doña
+        Celia.
+           Visitanos</string>
+    <string name="botonhomerestaurantes">Ver restaurantes</string>
+    <string name="titulohomesitios">Turismo en Concepción</string>
+    <string name="descripcionhomesitios">En nuestro pueblo encontraras grandes sitios turisticos, para caminar
+        o para disfrutar de las hermosas aguas de nuestras montañas como en la Cascada Matasanos.
+           Visitanos</string>
+    <string name="botonhomesitios">Ver Sitios turisticos</string>
 </resources>
