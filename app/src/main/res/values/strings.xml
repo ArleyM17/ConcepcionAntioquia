@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SanRafa</string>
+    <string name="app_name">Concepción Antioquia</string>
     <string name="titulohomehoteles">Hoteles en Concepción</string>
     <string name="descripcionhomehoteles">En nuestro pueblo encontraras alojamientos desde 35000 COP
         hasta lujosas cabañas dotadas de una buena comodidad para promover su estadia y descanso, te recomendamos el hotel
@@ -17,4 +17,13 @@
         o para disfrutar de las hermosas aguas de nuestras montañas como en la Cascada Matasanos.
            Visitanos</string>
     <string name="botonhomesitios">Ver Sitios turisticos</string>
+
+
+    <string name="menuopcion1">Ingles</string>
+    <string name="menuopcion2">Español</string>
+    <string name="menuopcion3">Aleman</string>
+    <string name="menuopcion4">Reseña</string>
+    <string name="menuopcion5">Acerca de</string>
+
+
 </resources>

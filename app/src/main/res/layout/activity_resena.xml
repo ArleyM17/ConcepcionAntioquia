@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/antiquewhite"
+    tools:context=".Resena">
+
+    <ImageView
+        android:id="@+id/imagenreseña"
+        android:layout_width="426dp"
+        android:layout_height="239dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/resena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tituloreseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Concepción Antioquia"
+        android:textColor="@color/rosybrown"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagenreseña"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/reseña1"
+        android:layout_width="392dp"
+        android:layout_height="318dp"
+        android:text="Entre las verdes montañas del nororiente antioqueño hay un paraíso histórico casi ignorado por los planes turísticos masivos: ¡Concepción! Es un pequeño pueblo tan lindo y divino, que desde 1999 fue declarado Patrimonio Histórico de la Nación, debido a sus calles empedradas e impecable conservación. Es un municipio pequeño y solitario olvidado por los carros y tecnologías modernas. Solo se puede llegar a esta remota gema cruzando caminos destapados. Perderse es prácticamente imposible ya que sus angostas y empedradas calles llevan al mismo lugar: la emblemática plaza central. Además, un pequeño rio de aguas cristalinas, innumerables guayabales y guayacanes contribuyen a pincelar el maravilloso entorno natural.
+
+Fue creada el 6 de noviembre de 1770 por decreto del Doctor Juan Salvador de Villa y Castañeda, cura de Medellín y Vicario Superintendente de la Provincia de Antioquia, bajo comisión confiada al obispo de Popayán, Don Jerónimo Antonio de Obregón y Mena. La población fue elevada a la categoría de municipio en 1814 y desde 1885 sus habitantes empezaron a dedicarse a la ganadería, a la madera y la agricultura."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tituloreseña"
+        app:layout_constraintVertical_bias="0.619" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

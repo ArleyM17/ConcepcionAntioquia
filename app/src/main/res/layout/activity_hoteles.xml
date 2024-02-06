@@ -28,7 +28,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="@string/titulohomehoteles"
         android:textAlignment="center"
-        android:textSize="33dp"
+        android:textSize="31dp"
         android:textColor="@color/indianred"
         android:textStyle="bold"
         app:layout_constraintVertical_bias="0.05"
