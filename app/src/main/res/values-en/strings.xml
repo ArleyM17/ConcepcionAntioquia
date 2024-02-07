@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Concepción Antioquia</string>
+    <string name="hoteles">Hotels</string>
+    <string name="restaurantes">Restaurants</string>
+    <string name="sitios">tourist sites</string>
+    <string name="titulohomehoteles">Hotels in Concepción</string>
+    <string name="descripcionhomehoteles">n our town you will find accommodation from 35,000 COP
+        to luxurious cabins equipped with good comfort to promote your stay and rest, we recommend the hotel
+        by Doña Pascuala.
+           Visit us</string>
+    <string name="botonhomehoteles">See hoteles</string>
+
+    <string name="titulohomerestaurantes">Restaurants in Concepción</string>
+    <string name="descripcionhomeresturates">In our town you will find delicious breakfasts and lunches,
+        Enjoy the typical gastronomy of our town and our great love for coffee and Doñas empanadas.
+        Celia.
+           Visit us</string>
+    <string name="botonhomerestaurantes">See restaurantes</string>
+
+    <string name="titulohomesitios">Tourism in Concepción</string>
+    <string name="descripcionhomesitios">In our town you will find great tourist sites, to walk
+        or to enjoy the beautiful waters of our mountains such as the Matasanos Waterfall.
+           Visit us</string>
+    <string name="botonhomesitios">See tourist sites</string>
+
+
+    <string name="menuopcion1">English</string>
+    <string name="menuopcion2">Espanish</string>
+    <string name="menuopcion3">German</string>
+    <string name="menuopcion4">Review</string>
+    <string name="menuopcion5">about</string>
+
+
+    <string name="textoresena">Among the green mountains of northeastern Antioquia there is a historical paradise almost ignored by massive tourist plans: Concepción! It is a small town so cute and divine, that since 1999 it was declared a National Historical Heritage, due to its cobblestone streets and impeccable conservation. It is a small and lonely municipality forgotten by cars and modern technologies. This remote gem can only be reached by crossing unpaved roads. Getting lost is practically impossible since its narrow, cobbled streets lead to the same place: the emblematic central square. In addition, a small river with crystal clear waters, countless guayabales and guayacanes contribute to the wonderful natural environment.
+
+It was created on November 6, 1770 by decree of Doctor Juan Salvador de Villa y Castañeda, priest of Medellín and Vicar Superintendent of the Province of Antioquia, under commission entrusted to the bishop of Popayán, Don Jerónimo Antonio de Obregón y Mena. The population was elevated to the status of municipality in 1814 and since 1885 its inhabitants began to dedicate themselves to livestock, wood and agriculture.</string>
+
+    <string name="textoacercade">My name is Johan Arley Marin and I am a software development technician. I am a junior programmer, and I enjoy using my skills to contribute to the exciting technological advances that occur every day on our planet. I studied at Cesde as a software development technician. While in school, I earned different recognitions for my exemplary academic performance and leadership skills.</string>
+    <string name="contacto">Contract number:3017260464
+Contact email:  Arley11zx@gmail.com</string>
+</resources>

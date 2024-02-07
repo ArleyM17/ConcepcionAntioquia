@@ -9,34 +9,35 @@
 
     <ImageView
         android:id="@+id/imagenmia"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="277dp"
+        android:layout_height="308dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/mia"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
         />
 
     <TextView
         android:id="@+id/descripcionmia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mi nombre es Johan Arley Marin y soy un tecnico en desarrollado de software. Soy un programador junior, y disfruto usar mis habilidades para contribuir a los emocionantes avances tecnológicos que ocurren todos los días en nuestra planetas. Estudio en el Cesde un tecnico en desarrollo de software. Mientras estaba en la escuela, obtuve diferentes reconocimientos por mi desempeño académico ejemplar y mis habilidades de liderazgo."
+        android:text="@string/textoacercade"
         android:textAlignment="center"
         android:textColor="@color/black"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imagenmia"
-        app:layout_constraintVertical_bias="0.621" />
+        app:layout_constraintVertical_bias="0.212" />
 
     <TextView
         android:id="@+id/datosmios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Numero de contracto: 3017260464
-Correo de contacto: Arley11zx@gmail.com"
+        android:text="@string/contacto"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +45,8 @@ Correo de contacto: Arley11zx@gmail.com"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/descripcionmia"
         app:layout_constraintVertical_bias="0.257"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:textSize="21dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

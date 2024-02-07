@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Concepción Antioquia</string>
+    <string name="hoteles">Hotels</string>
+    <string name="restaurantes">Restaurants</string>
+    <string name="sitios">Sehenswürdigkeiten</string>
+    <string name="titulohomehoteles">Hotels in Concepción</string>
+    <string name="descripcionhomehoteles">In unserer Stadt finden Sie Unterkünfte ab 35.000 COP
+        bis hin zu luxuriösen Hütten, die mit gutem Komfort ausgestattet sind, um Ihren Aufenthalt und Ihre Erholung zu fördern, empfehlen wir das Hotel
+        von Doña Pascuala.
+           Besuchen Sie uns</string>
+    <string name="botonhomehoteles">Hotels ansehen</string>
+
+    <string name="titulohomerestaurantes">Restaurants in Concepción</string>
+    <string name="descripcionhomeresturates">In unserer Stadt finden Sie köstliche Frühstücke und Mittagessen,
+        Genießen Sie die typische Gastronomie unserer Stadt und unsere große Liebe zum Kaffee und den Empanadas von Doña.
+        Celia.
+           Besuchen Sie uns</string>
+    <string name="botonhomerestaurantes">Restaurants ansehen</string>
+
+    <string name="titulohomesitios">Tourismus in Concepción</string>
+    <string name="descripcionhomesitios">In unserer Stadt finden Sie tolle Sehenswürdigkeiten zum Spazierengehen
+        oder um das wunderschöne Wasser unserer Berge wie den Matasanos-Wasserfall zu genießen.
+           Besuchen Sie uns</string>
+    <string name="botonhomesitios">Sehenswürdigkeiten ansehen</string>
+
+
+    <string name="menuopcion1">Englisch</string>
+    <string name="menuopcion2">Spanisch</string>
+    <string name="menuopcion3">Deutsch</string>
+    <string name="menuopcion4">Bewertung</string>
+    <string name="menuopcion5">Über</string>
+
+
+    <string name="textoresena">In den grünen Bergen im Nordosten von Antioquia gibt es ein historisches Paradies, das von großen Touristenplänen fast ignoriert wird: Concepción! Es ist eine kleine Stadt, die so süß und göttlich ist, dass sie aufgrund ihrer Kopfsteinpflasterstraßen und der tadellosen Erhaltung seit 1999 zum nationalen historischen Erbe erklärt wurde. Es ist eine kleine und einsame Gemeinde, vergessen von Autos und modernen Technologien. Dieses abgelegene Juwel kann nur über unbefestigte Straßen erreicht werden. Es ist praktisch unmöglich, sich zu verlaufen, da die engen, gepflasterten Gassen zum selben Ort führen: dem symbolträchtigen zentralen Platz. Darüber hinaus tragen ein kleiner Fluss mit kristallklarem Wasser sowie unzählige Guayabales und Guayacanes zu einer wunderbaren natürlichen Umgebung bei.
+
+Sie wurde am 6. November 1770 durch ein Dekret von Doktor Juan Salvador de Villa y Castañeda, Priester von Medellín und Vikar-Superintendent der Provinz Antioquia, im Auftrag des Bischofs von Popayán, Don Jerónimo Antonio de Obregón y Mena, gegründet. Die Bevölkerung wurde 1814 in den Status einer Gemeinde erhoben und seit 1885 begannen die Bewohner, sich der Viehzucht, dem Holzbau und der Landwirtschaft zu widmen.</string>
+
+    <string name="textoacercade">Mein Name ist Johan Arley Marin und ich bin Softwareentwicklungstechniker. Ich bin ein Junior-Programmierer und es macht mir Spaß, meine Fähigkeiten einzusetzen, um zu den aufregenden technologischen Fortschritten beizutragen, die jeden Tag auf unserem Planeten stattfinden. Ich habe bei Cesde als Softwareentwicklungstechniker studiert. Während meiner Schulzeit erhielt ich verschiedene Anerkennungen für meine vorbildlichen schulischen Leistungen und Führungsqualitäten.</string>
+    <string name="contacto">Vertragsnummer:  3017260464
+Kontakt-E-Mail:  Arley11zx@gmail.com</string>
+</resources>
