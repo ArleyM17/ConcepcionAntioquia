@@ -16,6 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/sitiocascada"
         android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
         />
     <TextView
         android:id="@+id/titulohomesitios"
@@ -35,18 +36,17 @@
 
     <TextView
         android:id="@+id/Descripcionsitios"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/titulohomesitios"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="327dp"
+        android:layout_height="169dp"
         android:text="@string/descripcionhomesitios"
         android:textAlignment="center"
-        android:textSize="21dp"
         android:textColor="@color/black"
-        app:layout_constraintVertical_bias="0.1"
-        />
+        android:textSize="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titulohomesitios"
+        app:layout_constraintVertical_bias="0.1" />
     <ImageView
         android:id="@+id/manositios"
         android:layout_width="wrap_content"

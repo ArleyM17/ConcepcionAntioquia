@@ -6,35 +6,30 @@
     <string name="restaurantes">Restaurantes</string>
     <string name="sitios">Sitios turisticos</string>
     <string name="titulohomehoteles">Hoteles en Concepción</string>
-    <string name="descripcionhomehoteles">En nuestro pueblo encontraras alojamientos desde 35000 COP
-        hasta lujosas cabañas dotadas de una buena comodidad para promover su estadia y descanso, te recomendamos el hotel
-        de Doña Pascuala.
-           Visitanos</string>
+    <string name="descripcionhomehoteles">En nuestro pueblo encontrarás alojamientos desde 35,000 COP hasta lujosas cabañas
+        dotadas de una buena comodidad para promover su estadía y descanso. Te recomendamos el hotel de Doña Pascuala. Visítanos.</string>
     <string name="botonhomehoteles">Ver hoteles</string>
     <string name="titulohomerestaurantes">Restaurantes en Concepción</string>
-    <string name="descripcionhomeresturates">En nuestro pueblo encontraras desayunos y almuerzos deliciosos,
-        disfruta de la gastronomia tipica de nuestro pueblo y de nuestro gran amor por el cafe y las empanadas de doña
-        Celia.
-           Visitanos</string>
+    <string name="descripcionhomeresturates">En nuestro pueblo encontrarás desayunos y almuerzos deliciosos. Disfruta de la
+        gastronomía típica de nuestro pueblo y de nuestro gran amor por el café y las empanadas de doña Celia. Visítanos.
+</string>
     <string name="botonhomerestaurantes">Ver restaurantes</string>
     <string name="titulohomesitios">Turismo en Concepción</string>
-    <string name="descripcionhomesitios">En nuestro pueblo encontraras grandes sitios turisticos, para caminar
-        o para disfrutar de las hermosas aguas de nuestras montañas como en la Cascada Matasanos.
-           Visitanos</string>
+    <string name="descripcionhomesitios">En nuestro pueblo encontrarás grandes sitios
+        turísticos para caminar o para disfrutar de las hermosas aguas de nuestras montañas, como la Cascada Matasanos. Visítanos.</string>
     <string name="botonhomesitios">Ver Sitios turisticos</string>
 
 
-    <string name="menuopcion1">Ingles</string>
+    <string name="menuopcion1">inglés</string>
     <string name="menuopcion2">Español</string>
     <string name="menuopcion3">Aleman</string>
     <string name="menuopcion4">Reseña</string>
     <string name="menuopcion5">Acerca de</string>
 
     <string name="textoresena">Entre las verdes montañas del nororiente antioqueño hay un paraíso histórico casi ignorado por los planes turísticos masivos: ¡Concepción! Es un pequeño pueblo tan lindo y divino, que desde 1999 fue declarado Patrimonio Histórico de la Nación, debido a sus calles empedradas e impecable conservación. Es un municipio pequeño y solitario olvidado por los carros y tecnologías modernas. Solo se puede llegar a esta remota gema cruzando caminos destapados. Perderse es prácticamente imposible ya que sus angostas y empedradas calles llevan al mismo lugar: la emblemática plaza central. Además, un pequeño rio de aguas cristalinas, innumerables guayabales y guayacanes contribuyen a pincelar el maravilloso entorno natural.
-
-Fue creada el 6 de noviembre de 1770 por decreto del Doctor Juan Salvador de Villa y Castañeda, cura de Medellín y Vicario Superintendente de la Provincia de Antioquia, bajo comisión confiada al obispo de Popayán, Don Jerónimo Antonio de Obregón y Mena. La población fue elevada a la categoría de municipio en 1814 y desde 1885 sus habitantes empezaron a dedicarse a la ganadería, a la madera y la agricultura.</string>
+Fue creada el 6 de noviembre de 1770.</string>
 
     <string name="textoacercade">Mi nombre es Johan Arley Marin y soy un tecnico en desarrollado de software. Soy un programador junior, y disfruto usar mis habilidades para contribuir a los emocionantes avances tecnológicos que ocurren todos los días en nuestra planetas. Estudio en el Cesde un tecnico en desarrollo de software. Mientras estaba en la escuela, obtuve diferentes reconocimientos por mi desempeño académico ejemplar y mis habilidades de liderazgo.</string>
-    <string name="contacto">Numero de contracto: 3017260464
+    <string name="contacto">Numero de contacto: 3017260464
 Correo de contacto: Arley11zx@gmail.com</string>
 </resources>
