@@ -12,6 +12,7 @@ public class Sitios {
     public Sitios() {
     }
 
+
     public Sitios(String nombre, String descripcion, String telefono, String direccion, Integer calificacion, Integer fotografia) {
         this.nombre = nombre;
         Descripcion = descripcion;
