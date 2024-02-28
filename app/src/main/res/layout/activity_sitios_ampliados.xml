@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SitiosAmpliados">
+
+    <TextView
+        android:id="@+id/TituloAmpliadositios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Titulo"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintVertical_bias="0.05"
+        />
+    <ImageView
+        android:id="@+id/fotoampliandositios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/TituloAmpliadositios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        android:src="@drawable/sitiocascada"
+        android:adjustViewBounds="true"
+        />
+
+
+    <TextView
+        android:id="@+id/calificacionsitios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calificación: 4.8"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliandositios"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <TextView
+        android:id="@+id/direccionsitios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direccion"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/calificacionsitios"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/telefonositios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="telefono"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toEndOf="@id/direccionsitios"
+        app:layout_constraintTop_toBottomOf="@id/fotoampliandositios"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <TextView
+        android:id="@+id/descripcionsitiosampliados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="descripción"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/direccionsitios"
+        app:layout_constraintVertical_bias="0.281" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
