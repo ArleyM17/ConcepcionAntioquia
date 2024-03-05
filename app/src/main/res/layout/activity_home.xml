@@ -4,49 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/antiquewhite"
+    android:background="@drawable/fondo2"
     tools:context=".Home">
-
-    <ImageView
-        android:id="@+id/iconohome"
-        android:layout_width="201dp"
-        android:layout_height="184dp"
-        android:src="@drawable/cascada"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099" />
 
     <TextView
         android:id="@+id/titulohome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="588dp"
+        android:shadowColor="@color/whitesmoke"
+        android:shadowDy="5.0"
+        android:shadowRadius="10.0"
         android:text="Concepción Antioquia"
-        android:textColor="@color/rosybrown"
-        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textSize="36dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iconohome"
-        app:layout_constraintVertical_bias="0.118" />
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/botonhoteles"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/titulohome"
+        android:layout_marginHorizontal="28dp"
+        android:backgroundTint="@color/tan"
+        android:text="@string/hoteles"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.2"
-        android:layout_marginHorizontal="28dp"
-        android:backgroundTint="@color/burlywood"
-        android:text="@string/hoteles"
-        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/titulohome"
+        app:layout_constraintVertical_bias="0.431"
 
         />
 
@@ -54,30 +44,30 @@
         android:id="@+id/botonrestaurantes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/botonhoteles"
+        android:layout_marginHorizontal="28dp"
+        android:backgroundTint="@color/tan"
+        android:text="@string/restaurantes"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.1"
-        android:layout_marginHorizontal="28dp"
-        android:backgroundTint="@color/burlywood"
-        android:text="@string/restaurantes"
-        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/botonhoteles"
 
-        />
+        app:layout_constraintVertical_bias="0.153" />
+
     <Button
         android:id="@+id/botonsitios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/botonrestaurantes"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.1"
         android:layout_marginHorizontal="28dp"
-        android:backgroundTint="@color/burlywood"
+        android:backgroundTint="@color/tan"
         android:text="@string/sitios"
         android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/botonrestaurantes"
 
-        />
+        app:layout_constraintVertical_bias="0.175" />
 </androidx.constraintlayout.widget.ConstraintLayout>

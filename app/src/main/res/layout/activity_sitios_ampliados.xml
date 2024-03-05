@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/antiquewhite"
     tools:context=".SitiosAmpliados">
 
     <TextView
@@ -83,7 +84,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/direccionsitios"
-        app:layout_constraintVertical_bias="0.281" />
+        app:layout_constraintVertical_bias="0.281"
+        android:textAlignment="center"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

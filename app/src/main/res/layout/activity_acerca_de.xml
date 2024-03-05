@@ -9,44 +9,46 @@
 
     <ImageView
         android:id="@+id/imagenmia"
-        android:layout_width="277dp"
-        android:layout_height="308dp"
+        android:layout_width="266dp"
+        android:layout_height="299dp"
         android:layout_marginTop="4dp"
         android:src="@drawable/mia"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/descripcionmia"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="394dp"
+        android:layout_height="265dp"
         android:text="@string/textoacercade"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imagenmia"
-        app:layout_constraintVertical_bias="0.212" />
+        app:layout_constraintVertical_bias="0.196"
+        android:textStyle="italic"
+        />
 
     <TextView
         android:id="@+id/datosmios"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="375dp"
+        android:layout_height="48dp"
         android:text="@string/contacto"
         android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/descripcionmia"
-        app:layout_constraintVertical_bias="0.257"
-        android:textColor="@color/black"
-        android:textSize="21dp"/>
+        app:layout_constraintVertical_bias="0.228" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

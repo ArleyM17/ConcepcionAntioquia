@@ -41,12 +41,14 @@
         android:text="@string/descripcionhomeresturates"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="22dp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/titulohomerestaurante"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintVertical_bias="0.161" />
+
     <ImageView
         android:id="@+id/manorestaurantes"
         android:layout_width="wrap_content"

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/antiquewhite"
     tools:context=".HotelesAmpliados">
 
     <TextView
@@ -42,10 +43,10 @@
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintHorizontal_bias="0.641"
         app:layout_constraintStart_toEndOf="@id/calificacionhoteles"
         app:layout_constraintTop_toBottomOf="@id/fotoampliandohoteles"
-        app:layout_constraintVertical_bias="0.11" />
+        app:layout_constraintVertical_bias="0.079" />
 
     <TextView
         android:id="@+id/calificacionhoteles"
@@ -55,10 +56,10 @@
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintHorizontal_bias="0.128"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fotoampliandohoteles"
-        app:layout_constraintVertical_bias="0.114" />
+        app:layout_constraintVertical_bias="0.083" />
 
     <TextView
         android:id="@+id/direccionhoteles"
@@ -68,10 +69,10 @@
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintHorizontal_bias="0.147"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/calificacionhoteles"
-        app:layout_constraintVertical_bias="0.128" />
+        app:layout_constraintVertical_bias="0.158" />
 
     <TextView
         android:id="@+id/telefonohoteles"
@@ -81,23 +82,24 @@
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.654"
-        app:layout_constraintStart_toEndOf="@id/direccionhoteles"
+        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/preciohotelesampliados"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintVertical_bias="0.161" />
 
     <TextView
         android:id="@+id/descripcionhotelesampliados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="descripción"
+        android:textAlignment="center"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/direccionhoteles"
-        app:layout_constraintVertical_bias="0.182" />
+        app:layout_constraintVertical_bias="0.462" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
