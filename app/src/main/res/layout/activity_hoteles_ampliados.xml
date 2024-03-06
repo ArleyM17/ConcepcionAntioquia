@@ -4,102 +4,109 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/antiquewhite"
+    android:background="#EDD1AB"
     tools:context=".HotelesAmpliados">
+
 
     <TextView
         android:id="@+id/TituloAmpliadohoteles"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:text="Titulo"
+        android:textAlignment="center"
         android:textSize="22dp"
         android:textStyle="bold"
-        android:textAlignment="center"
-        app:layout_constraintVertical_bias="0.05"
-        />
-        <ImageView
-            android:id="@+id/fotoampliandohoteles"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/TituloAmpliadohoteles"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.1"
-            android:src="@drawable/hotel"
-            android:adjustViewBounds="true"
-            />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"
+        app:layout_constraintVertical_bias="0.021" />
 
+    <ImageView
+        android:id="@+id/fotoampliandohoteles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/hotel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TituloAmpliadohoteles"
+        app:layout_constraintVertical_bias="0.069" />
 
     <TextView
         android:id="@+id/preciohotelesampliados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="precio"
+        android:text="172000"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.641"
-        app:layout_constraintStart_toEndOf="@id/calificacionhoteles"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fotoampliandohoteles"
-        app:layout_constraintVertical_bias="0.079" />
+        app:layout_constraintVertical_bias="0.081" />
 
     <TextView
         android:id="@+id/calificacionhoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calificación: 4.6"
+        android:text="4"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintHorizontal_bias="0.834"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/fotoampliandohoteles"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
         android:id="@+id/direccionhoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Direccion"
+        android:text="Alejandria Km 1.4"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintHorizontal_bias="0.094"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/calificacionhoteles"
-        app:layout_constraintVertical_bias="0.158" />
+        app:layout_constraintTop_toBottomOf="@id/fotoampliandohoteles"
+        app:layout_constraintVertical_bias="0.078" />
 
     <TextView
         android:id="@+id/telefonohoteles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="telefono"
+        android:text="314-6689432"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@id/preciohotelesampliados"
-        app:layout_constraintVertical_bias="0.161" />
+        app:layout_constraintVertical_bias="0.095" />
 
     <TextView
         android:id="@+id/descripcionhotelesampliados"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="descripción"
+        android:layout_width="374dp"
+        android:layout_height="202dp"
+        android:text="Ubicada al comienzo del valle de San Bartolo, en esta hermosa finca puedes encontrar amplias zonas  verdes, acceso al río Concepción.Cerca puedes visitar las Cascadas de Matasanos, a sólo 10 min distancia en vehículo."
         android:textAlignment="center"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintHorizontal_bias="0.567"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/direccionhoteles"
-        app:layout_constraintVertical_bias="0.462" />
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

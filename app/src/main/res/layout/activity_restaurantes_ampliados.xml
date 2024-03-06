@@ -3,101 +3,109 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/antiquewhite"
     android:layout_height="match_parent"
+    android:background="#EDD1AB"
     tools:context=".RestaurantesAmpliados">
+
+
     <TextView
         android:id="@+id/TituloAmpliadorestaurantes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:text="Titulo"
+        android:textAlignment="center"
         android:textSize="22dp"
         android:textStyle="bold"
-        android:textAlignment="center"
-        app:layout_constraintVertical_bias="0.05"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
     <ImageView
         android:id="@+id/fotoampliandorestaurantes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/TituloAmpliadorestaurantes"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.1"
-        android:src="@drawable/restaurante"
         android:adjustViewBounds="true"
-        />
-
+        android:src="@drawable/restaurante"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TituloAmpliadorestaurantes"
+        app:layout_constraintVertical_bias="0.041" />
 
     <TextView
         android:id="@+id/preciorestaurantesampliados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="precio"
+        android:text="172000"
         android:textSize="24dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
-        app:layout_constraintStart_toEndOf="@id/calificacionrestaurantes"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fotoampliandorestaurantes"
-        app:layout_constraintVertical_bias="0.119" />
+        app:layout_constraintVertical_bias="0.181" />
 
     <TextView
         android:id="@+id/calificacionrestaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calificación: 5"
+        android:text="5"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.118"
+        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.871"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/fotoampliandorestaurantes"
-        app:layout_constraintVertical_bias="0.119" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
         android:id="@+id/direccionrestaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Direccion"
+        android:text="Alejandria Km 1.4"
         android:textSize="24dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/calificacionrestaurantes"
-        app:layout_constraintVertical_bias="0.151" />
+        app:layout_constraintTop_toBottomOf="@id/fotoampliandorestaurantes"
+        app:layout_constraintVertical_bias="0.037" />
 
     <TextView
         android:id="@+id/telefonorestaurante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="telefono"
+        android:text="314-6689432"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.627"
-        app:layout_constraintStart_toEndOf="@id/direccionrestaurantes"
+        app:layout_constraintHorizontal_bias="0.498"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/preciorestaurantesampliados"
-        app:layout_constraintVertical_bias="0.151" />
+        app:layout_constraintVertical_bias="0.095" />
 
     <TextView
         android:id="@+id/descripcionrestaurantesampliados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="descripción"
+        android:text="Ubicada al comienzo del valle de San Bartolo, en esta hermosa finca puedes encontrar amplias zonas  verdes, acceso al río Concepción.Cerca puedes visitar las Cascadas de Matasanos, a sólo 10 min distancia en vehículo."
+        android:textAlignment="center"
         android:textSize="24dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/direccionrestaurantes"
-        app:layout_constraintVertical_bias="0.325"
-        android:textAlignment="center"/>
+        app:layout_constraintVertical_bias="0.915" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,88 +4,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/antiquewhite"
+    android:background="#EDD1AB"
     tools:context=".SitiosAmpliados">
 
     <TextView
         android:id="@+id/TituloAmpliadositios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:text="Titulo"
+        android:textAlignment="center"
         android:textSize="22dp"
         android:textStyle="bold"
-        android:textAlignment="center"
-        app:layout_constraintVertical_bias="0.05"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
     <ImageView
         android:id="@+id/fotoampliandositios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/TituloAmpliadositios"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.1"
-        android:src="@drawable/sitiocascada"
         android:adjustViewBounds="true"
-        />
+        android:src="@drawable/sitiocascada"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TituloAmpliadositios"
+        app:layout_constraintVertical_bias="0.1" />
 
 
     <TextView
         android:id="@+id/calificacionsitios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calificación: 4.8"
+        android:textColor="@color/black"
+        android:text="4.8"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/fotoampliandositios"
-        app:layout_constraintVertical_bias="0.16" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
 
     <TextView
         android:id="@+id/direccionsitios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Direccion"
+        android:text="Alejandria Km 1.4"
         android:textSize="24dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/calificacionsitios"
-        app:layout_constraintVertical_bias="0.12" />
+        app:layout_constraintTop_toBottomOf="@id/fotoampliandositios"
+        app:layout_constraintVertical_bias="0.091" />
 
     <TextView
         android:id="@+id/telefonositios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="telefono"
+        android:text="314-6689432"
         android:textSize="24dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.84"
-        app:layout_constraintStart_toEndOf="@id/direccionsitios"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fotoampliandositios"
-        app:layout_constraintVertical_bias="0.337" />
+        app:layout_constraintVertical_bias="0.249" />
 
     <TextView
         android:id="@+id/descripcionsitiosampliados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="descripción"
+        android:text="Ubicada al comienzo del valle de San Bartolo, en esta hermosa finca puedes encontrar amplias zonas  verdes, acceso al río Concepción.Cerca puedes visitar las Cascadas de Matasanos, a sólo 10 min distancia en vehículo."
+        android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/direccionsitios"
-        app:layout_constraintVertical_bias="0.281"
-        android:textAlignment="center"/>
+        app:layout_constraintVertical_bias="0.807" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
